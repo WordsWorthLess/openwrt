@@ -6,8 +6,7 @@ on:
 
 jobs:
   call-workflow:
-    uses: WordsWorthLess/openwrt/.github/workflows/build.yml@v1
-    with:
+    uses: WordsWorthLess/openwrt/.github/workflows/build.yml@master
       target: X86_64
       testing: false
       build_toolchain: true
