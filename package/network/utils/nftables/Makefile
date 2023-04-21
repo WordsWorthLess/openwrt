@@ -83,3 +83,17 @@ Package/nftables-json/install = $(Package/nftables/install/Default)
 
 $(eval $(call BuildPackage,nftables-nojson))
 $(eval $(call BuildPackage,nftables-json))
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
