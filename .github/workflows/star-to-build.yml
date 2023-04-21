@@ -17,4 +17,4 @@ jobs:
       build_all_modules: true
       build_all_kmods: true
       build_all_boards: true
-      use_openwrt_container: false
+      use_openwrt_container: true
