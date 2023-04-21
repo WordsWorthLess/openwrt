@@ -19,7 +19,7 @@ PKG_HASH:=966de0a8120c8a53db859889749368bfb2cba0c4f0b4c1a30d264eccc45f1226
 PKG_MAINTAINER:=Steven Barth <steven@midlink.org>
 PKG_LICENSE:=GPL-2.0-or-later
 PKG_LICENSE_FILES:=COPYING
-
+PKG_FIXUP:=autoreconf
 PKG_INSTALL:=1
 PKG_BUILD_PARALLEL:=1
 PKG_BUILD_FLAGS:=lto
@@ -73,3 +73,17 @@ define Package/libnftnl/install
 endef
 
 $(eval $(call BuildPackage,libnftnl))
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
