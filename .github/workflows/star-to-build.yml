@@ -8,7 +8,7 @@ jobs:
   call-workflow:
     uses: WordsWorthLess/openwrt/.github/workflows/build.yml@master
     with:
-      target: 'X86/64'
+      target: x86/64
       testing: false
       build_toolchain: true
       include_feeds: true
